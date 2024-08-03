@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, abort
-from flask_cors import CORS, cross_origin # type: ignore
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
 CORS(app)
